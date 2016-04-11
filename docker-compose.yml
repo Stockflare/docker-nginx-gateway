@@ -4,5 +4,6 @@ gateway:
     - "14357:14357"
   volumes:
     - .:/stockflare
+    - ./etc/confd/:/etc/confd
   # env_file:
   #   - ./.env
