@@ -1,0 +1,8 @@
+gateway:
+  build: .
+  ports:
+    - "14357:14357"
+  volumes:
+    - .:/stockflare
+  # env_file:
+  #   - ./.env

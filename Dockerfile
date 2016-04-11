@@ -4,7 +4,7 @@ MAINTAINER David Kelley <david@stockflare.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV LISTEN_ON 80
+ENV LISTEN_ON 2345
 
 ENV CONFD_VERSION 0.10.0
 
